@@ -1,0 +1,41 @@
+body {
+    background-color:#b7ced2;
+    background-image: url('background20.jpg');
+    height: 100%;
+    position: relative;
+    padding: 0px;
+    margin:0px;
+}
+.container {
+    width: 800px;
+    height: 100%;
+    background-color:#c8d6d4;
+    color:#2f655e;
+    margin:auto;
+    padding: 30px;
+    display: block;
+    position: relative;
+}
+blockquote {
+    padding: 10px;
+    background-color:#b1d0cc;
+    font-family: 'Caveat', cursive;
+    font-size: 1.3em;
+}
+blockquote::before {
+    content: '\201C ';
+}
+blockquote::after {
+    content: ' \201D';
+}
+@media screen and (max-width:700px) {
+    .container {
+        width:350px;
+        font-size: 1em;
+        padding: 10px;
+    }
+    blockquote {
+        padding: 5px;
+    }
+    
+}
