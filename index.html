@@ -7,16 +7,31 @@
     <title>Обзор на сосиську</title>
     <link rel='stylesheet' type='text/css' href='style.css'>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class='container'>
+    <div class='container' id='1'>
+        <p onclick='toggle()'>Ночной вид </p>
         <blockquote> Жизнь это типа как колодец... Там ведро... что... и вода...</blockquote>
         <p>Привет! Если честно, я не совсем знаю, что тут писать, хаха... <br > Меня зовут Слава, а ещё я не очень люблю сервис carrd. Вот немножечко информации обо мне, раз вы уже зашли!
-        <br></p>
-    <details><summary>Кто такие суслики?</summary> <p><blockquote> Слава отстань от животных они тебе ничего не сделали!1!1</blockquote>
-        Да, вы почти правы)). Как вы знаете, Симбионт - мой основной фд, которому я посятил много лет, но у меня тут есть любимчики. Суслики - название пейринга Соболя и Оператора, которого он зовёт другом. Поэтому если вы где-то увидите "сусликов", то да, речь о них</p></details>
+        <br>
+    - он/его<br>- достаточно взрослый чтобы купить вам пивко<br>- ЛИИ(Робеспьер по соционике), ЛВЭФ(по психософии)<br>- калякаю слеш, фемслеш(гетеро картинок почти нет, пж не спрашивайте насчёт этого)<br>- программирую штучки<br>- КУЧА НСФВ И ХОРНИ ШТУК НА АККАУНТЕ<br>- (лалала лололо я хз что тут написать ахахахаха)
+<br><br>DNI:<br>- лгбт+-фоб_ки<br>- любители(любительницы поспорить)<br><br>Такс, тут будет кусочек всякой информации:<br></p>
+
+    <details><summary>Где меня можно найти?</summary>
+        <p>Смотря что именно вы от меня хотите)))</p>
+        <ul>
+            <li><a href='https://vk.com/greenprivat'>Группа с каракулями</a></li>
+            <li><a href='https://vk.com/club201796189'>Группа с каракулями(щитпост)</a></li>
+            <li><a href='https://github.com/GreenTreeD'>GitHub</a></li>
+            <li><a href='https://www.tumblr.com/blog/securityman666'>Tumblr</a>(для англоязычной аудитории)</li>
+        </ul>
+    </details>
+    <br>
     <details><summary>Фандомчики</summary>
         <p> Да, список не маленький, но это список всех фандомов в которых я когда либо сидел. Я постарался их расставить в том порядке, в каком я в них шарю, но я буду рад поговорить о любых.
             <ul>
@@ -46,6 +61,26 @@
             
         </ul></p>
     </details>
+    <p><br><br>FAQ:<br></p>
+    <details><summary>Кто такие суслики?</summary> <p><blockquote> Слава отстань от животных они тебе ничего не сделали!1!1</blockquote>
+        Да, вы почти правы)). Как вы знаете, Симбионт - мой основной фд, которому я посятил много лет, но у меня тут есть любимчики. Суслики - название пейринга Соболя и Оператора, которого он зовёт другом. Поэтому если вы где-то увидите "сусликов", то да, речь о них</p></details>
+    
     </div>
+    <script>
+        var nighttoggle = true;
+
+        function toggle() {
+            if (nighttoggle) {
+                document.getElementById('1').style.backgroundColor = '#ffffff';
+                console.log('if');
+                nighttoggle = false;
+            } else {
+                document.getElementById('1').style.backgroundColor = '#c8d6d4';
+                console.log('else');
+                nighttoggle = true;
+            }
+        }
+        
+    </script>
 </body>
 </html>

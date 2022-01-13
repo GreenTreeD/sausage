@@ -1,10 +1,12 @@
 body {
     background-color:#b7ced2;
-    background-image: url('background20.jpg');
     height: 100%;
     position: relative;
     padding: 0px;
     margin:0px;
+}
+a {
+    color:#2f655e;
 }
 .container {
     width: 800px;
@@ -15,6 +17,10 @@ body {
     padding: 30px;
     display: block;
     position: relative;
+    font-family: 'Ubuntu Mono', monospace;
+}
+.container p {
+    font-family: 'Ubuntu Mono', monospace;
 }
 blockquote {
     padding: 10px;
